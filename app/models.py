@@ -1,5 +1,6 @@
 from django.db import models
 from flask import Response
+from markdown import serializers
 
 
 class Post(models.Model):
